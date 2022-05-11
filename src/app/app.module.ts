@@ -7,7 +7,8 @@ import {InputOverviewExample} from './input-overview-example';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatNativeDateModule} from '@angular/material/core';
 import {HttpClientModule} from '@angular/common/http';
-import {MyLibModule} from "my-lib";
+// @ts-ignore
+import {MyLibModule} from 'my-lib';
 
 @NgModule({
   declarations: [InputOverviewExample],

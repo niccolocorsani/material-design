@@ -5,11 +5,14 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MaterialExampleModule} from "../material.module";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {BrowserModule} from "@angular/platform-browser";
+import {AutoCompleteComponent} from "./auto-complete.component";
 
 
 @NgModule({
   declarations: [
-    MyLibComponent
+    MyLibComponent,
+    AutoCompleteComponent
+
   ],
   imports: [
     BrowserAnimationsModule,
@@ -21,7 +24,8 @@ import {BrowserModule} from "@angular/platform-browser";
 
   ],
   exports: [
-    MyLibComponent
+    MyLibComponent,
+    AutoCompleteComponent
   ]
 })
 export class MyLibModule { }
